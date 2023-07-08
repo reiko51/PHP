@@ -1,0 +1,20 @@
+SENDMAILをダウンロード								
+	C:\xampp\の直下に配置							
+
+
+送信用GMAILアカウントの２段階認証設定	※Googleの設定							
+
+
+C:\xampp\php								
+	PHP.INIの設定
+	[mail function]でsendmailプログラムを配置したパスを設定		
+C:\xampp\sendmail								
+	SENDMAIL.INIの設定
+	プロバイダの設定、認証の設定など		
+C:\xampp\htdocs\phpsendmail								
+	index.php				
+	test_mail.php	
+C:\xampp\htdocs\phpsendmailをポート8081に紐づけ	
+	※これはしなくても、localhost/phpsendmailでいける、ポートでアクセスしたいならこれをする		
+	httpd.conf							
+	httpd-vhosts.conf							

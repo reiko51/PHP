@@ -1,0 +1,7 @@
+C:\xampp\htdocs\									
+	phpmailergmail.php	送信プログラム					
+	PHPMailer		ダウンロードしたプログラム群をそのまま配置					
+C:\xampp\php\									
+	php.ini		include_path=C:\xampp\htdocs	に変更	
+			PHPMailerを配置した場所を書く。送信プログラムと同じである必要はない
+									
